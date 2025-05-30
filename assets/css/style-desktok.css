@@ -1,5 +1,4 @@
 body {
-  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   color: #393d41;
@@ -16,7 +15,7 @@ h6 {
   color: #25a2c3;
   font-family: "Montserrat(bold)", sans-serif;
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 h3 {
@@ -42,11 +41,11 @@ header {
 }
 #logo {
   width: auto;
-  display: block;
+
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(0, 0, 0);
-  text-align: center;
+  text-align: left;
 }
 #logo-epico {
   margin-top: 2em;
@@ -69,7 +68,7 @@ header {
 }
 .worker {
   height: 400px;
-  width: 400px;
+  width: 750px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -93,14 +92,13 @@ header {
 }
 #notebook {
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+
   margin-bottom: 50px;
   border-radius: 50%;
   width: 425px;
   height: 425px;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
 }
 .proposta {
   height: 100px;
